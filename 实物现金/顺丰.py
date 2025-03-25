@@ -1,5 +1,6 @@
 #多号换行，变量名：sfsyUrl
 # const $ = new Env('顺丰速运')
+# cron "1 6,18 * * *" 顺丰速运.py
 import hashlib
 import json
 import os
