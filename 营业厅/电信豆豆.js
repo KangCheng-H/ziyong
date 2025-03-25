@@ -1,12 +1,8 @@
-// 非青龙下在文件开头添加账号配置,
-//process.env.chinaTelecomAccount = `
-//13454545457#123456
-//13454545457#456789
-//`.trim();
-
-//变量格式: 手机号#服务密码
-//多号创建多个变量或者换行、&隔开
-
+/**
+ * cron "1 6,18 * * *" 电信豆豆.js
+ * export chinaTelecomAccount="手机号#服务密码"
+ * 多号创建多个变量或者换行、&隔开
+ */
 
 (function (_0x1398c0) {
   process.env.NODE_OPTIONS = "--max-old-space-size=4096 --openssl-legacy-provider";
