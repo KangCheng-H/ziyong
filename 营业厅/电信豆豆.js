@@ -2421,7 +2421,7 @@
       async ["showmsg"]() {
         if (!this.notifyFlag) return;
         if (!this.notifyStr.length) return;
-        var _0x5b49dd = require("./sendNotify");
+        var _0x5b49dd = require("../sendNotify");
         this.log("\n============== 推送 ==============");
         await _0x5b49dd.sendNotify(this.name, this.notifyStr.join("\n"));
       }
