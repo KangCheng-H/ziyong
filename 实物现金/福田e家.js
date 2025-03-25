@@ -1,9 +1,8 @@
 
-/*
-福田e家
-ftej '账号#密码'
-偶尔会报错  多定时两次就好了
-*/
+/**
+ * cron "15 8,20 * * *" 福田e家.js
+ * export ftej="账号#密码"
+ */
 
 const $ = new Env("福田e家");
 //let envSplitor = ['\n','@','#']
