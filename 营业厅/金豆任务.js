@@ -1,3 +1,8 @@
+/**
+ * cron "1 6,18 * * *" 金豆任务.js
+ * export dx="手机号#服务密码"
+ * 多账号用 换行 或 @ 分割
+ */
 const originalLog = console.log;
 console.log = function (...args) {
     const date = new Date();
